@@ -1,0 +1,9 @@
+var counter = function (setStorage){
+    if(localStorage.counter){
+        localStorage.counter=Number(localStorage.counter)+1;
+    }else{
+        localStorage.counter=1;
+    }
+    var counter=setStorage();
+    return localStorage.counter();
+}

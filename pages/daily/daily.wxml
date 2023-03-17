@@ -1,0 +1,71 @@
+<!--pages/health/health.wxml-->
+<view class="container">
+    <view class="a">学号
+        <view class="a1" name="userName">191110241
+        </view>
+    </view>
+    <view class="b">姓名
+        <view class="b1" name="userName">陈增荣
+        </view>
+    </view>
+    <view class="c">学院
+        <view class="c1" name="userName">计算机学院
+        </view>
+    </view>
+    <view class="d">班级
+        <view class="d1" name="userName">计算机1905
+        </view>
+    </view>
+    <view class="f">
+        <view class="f1">假期是否留校</view>
+        <radio-group name="radio-group">
+            <radio value="radio1" class="radio1">是</radio>
+            <radio value="radio2" class="radio2">否</radio>
+        </radio-group>
+        <view class="f2">是否已返校</view>
+        <radio-group name="radio-group">
+            <radio value="radio1" class="radio1">是</radio>
+            <radio value="radio2" class="radio2">否</radio>
+        </radio-group>
+    </view>
+    <view class="g">
+        <picker class="g1" mode="region" bindchange="bindRegionChange" value="{{region}}">
+            <view class="g11">当前所在地</view>
+            <view class="g12">{{region[0]}}{{region[1]}}{{region[2]}} ﹀
+            </view>
+        </picker>
+    </view>
+    <view class="h">
+        <view class="h1">最近经历（可多选）</view>
+        <checkbox-group bindchange="checkboxChange">
+            <label class="label" wx:for="{{items}}" wx:key="{{item.value}}">
+                <view class="h2">
+                    <checkbox value="{{item.value}}" checked="{{item.checked}}" />
+                </view>
+                <view class="h3">{{item.name}}</view>
+            </label>
+        </checkbox-group>
+        <view class="i">
+            <view class="i1">本日是否有发热症状（体温37.3℃以上）</view>
+            <radio-group name="radio-group">
+                <radio value="radio1" class="radio1">是</radio>
+                <radio value="radio2" class="radio2">否</radio>
+            </radio-group>
+        </view>
+        <view class="j">
+            <picker class="j1" bindchange="bindSelectChange" vaule="{{select}}" range="{{array}}">
+                <view class="j11">个人健康状态</view>
+                <view class="j12">{{array[select]}} ﹀                </view>
+            </picker>
+        </view>
+        <view class="k">
+            <view class="k1">近14日是否曾逗留境外</view>
+            <radio-group name="radio-group">
+                <radio value="radio1" class="radio1">是</radio>
+                <radio value="radio2" class="radio2">否</radio>
+            </radio-group>
+        </view>
+    </view>
+
+
+</view>

@@ -1,0 +1,136 @@
+/* pages/daily/daily.wxss */
+/* pages/health/health.wxss */
+.container{
+    width: 97%;
+    height: 100%;
+    padding: 5px;
+    margin: 5px;
+    border-top: 1px solid #e9e8e8;
+    background-color: #ffffff;
+}
+.a{
+    overflow: hidden;
+    width: 90%;
+    padding: 5px 0px 10px 0px;
+    border-bottom: 1px solid #e9e8e8;
+    font-size: 15px;
+}
+.b,.c,.d{
+    overflow: hidden;
+    width: 90%;
+    padding: 10px 0px;
+    border-bottom: 1px solid #e9e8e8;
+    font-size: 15px;
+}
+.a1,.b1,.c1,.d1{
+    float: right;
+    text-align: right;
+    color:gray;
+}
+.f{
+    overflow: hidden;
+    width: 90%;
+    padding: 10px 0;
+    border-bottom: 1px solid #e9e8e8;
+    font-size: 15px;
+}
+.f1{
+    font-size: 12px;
+    margin: 5px;
+    margin-left: 0px;
+}
+.f2{
+    font-size: 12px;
+    margin:15px 0 5px;
+}
+.i,.k{
+    margin: 15px;
+    margin-left:0 ;
+}
+.i1,.k1{
+    font-size: 12px;
+    margin: 5px;
+    margin-left: 0px;
+
+}
+.radio1 .wx-radio-input {
+    border-radius: 0%; /* 圆角 */
+    width: 30rpx;
+    border: 2rpx solid #bebebe;
+    height: 30rpx;
+  }
+  .radio2 .wx-radio-input {
+    border-radius: 0%; /* 圆角 */
+    width: 30rpx;
+    border: 2rpx solid #bebebe;
+    height: 30rpx;
+    margin-left: 10px;
+  }
+  radio .wx-radio-input.wx-radio-input-checked::before {
+    border-radius: 0%; /* 圆角 */
+    width: 32rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+    height: 32rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+    border: none;
+    text-align: center;
+    font-size: 32rpx; /* 对勾大小 30rpx */
+    color: #fff; /* 对勾颜色 白色 */
+    background: #3c8df8;
+    transform: translate(-50%, -50%) scale(1);
+  }
+.g{
+    width: 90%;
+    padding: 10px 0px;
+    border-bottom: 1px solid #e9e8e8;
+    font-size: 15px;
+}
+.j{
+    width: 98%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e9e8e8;
+    font-size: 15px;
+}
+.g1,.j1{    
+    overflow: hidden;
+}
+
+.g11,.j11{
+    width: 40%;
+    float: left;
+}
+.g12,.j12{
+    width: 60%;
+    float: right;
+    text-align: right;
+    color: gray;
+}
+.h{
+    width: 90%;
+    padding: 10px 0px;
+    font-size: 15px;
+}
+.h1{
+    font-size: 12px;
+    margin: 5px;
+    margin-left: 0px;
+}
+.label{
+    display: flex;
+}
+
+checkbox .wx-checkbox-input {
+    border-radius: 0%; /* 圆角 */
+    width: 30rpx;
+    border: 2rpx solid #bebebe;
+    height: 30rpx;
+  }
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+    border-radius: 0%; /* 圆角 */
+    width: 32rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+    height: 32rpx; /* 选中后对勾大小，不要超过背景的尺寸 */
+    border: none;
+    text-align: center;
+    font-size: 30rpx; /* 对勾大小 30rpx */
+    color: #fff; /* 对勾颜色 白色 */
+    background: #3c8df8;
+    transform: translate(-50%, -50%) scale(1);
+  }

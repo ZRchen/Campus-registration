@@ -1,0 +1,85 @@
+<!--pages/daily/daily.wxml-->
+<view class="all">
+<view class="container">
+    <view class="a">学号
+    <view class="a1" name="userName">191110241
+    </view>
+  </view>
+  <view class="b">姓名
+    <view class="b1" name="userName">陈增荣
+  </view>
+  </view>
+  <view class="c">学院
+    <view class="c1" name="userName">计算机学院
+  </view>
+  </view>
+  <view class="d">班级
+    <view class="d1" name="userName">计算机1905
+  </view>
+  </view>
+<view class="e">联系方式
+    <input class="e1" name="userName" placeholder-class="e2"placeholder="请输入联系方式"placeholder-style="text-align:left"
+    bindinput="userNameInput"/>
+  </view>
+  <view class="f">
+    <picker class="f1" bindchange="bindPickerChange"vaule="{{index}}" range="{{array}}">
+    <view class="f11">外出原因</view><view class="f12">{{array[index]}}  ﹀</view>
+  </picker>
+  </view>
+  <view class="g">
+    <picker class="g1" mode="region" bindchange="bindRegionChange" value="{{region}}" >
+    <view class="g11">目的地</view>
+    <view class="g12">{{region[0]}}{{region[1]}}{{region[2]}}  ﹀
+    </view>
+  </picker>
+  </view>
+<view class="h">
+    <view class="h1">目的详细地址</view>
+    <input class="h2" name="userName"placeholder-class="h3"placeholder="目的详细地址"placeholder-style="text-align:left"
+     bindinput="userNameInput" />
+  </view>
+  <view class="i">
+    <picker class="i1" bindchange="bindSelectChange"vaule="{{select}}" range="{{array1}}">
+    <view class="i11">是否是高风险区</view><view class="i12">{{array1[select]}}  ﹀</view>
+  </picker>
+  </view>
+  <view class="j">
+    <date-time-picker class="j1" value="{{value}}"  bindchange="handleChange">
+    <view class="j11">计划离校时间</view>
+    <view class="j12">{{value}}  ﹀</view>
+</date-time-picker>
+</view>
+<view class="k">
+    <picker class="k1" bindchange="bindSelectChange2"vaule="{{select2}}" range="{{array2}}">
+    <view class="k11">乘坐何种方式外出</view><view class="k12">{{array2[select2]}}  ﹀</view>
+  </picker>
+  </view>
+  <view class="l">
+    <view class="l1">航班号或车次车厢</view>
+    <input class="l2" name="userName"placeholder-class="l3"placeholder="航班号、车次车厢等"placeholder-style="text-align:left"
+     bindinput="userNameInput" />
+  </view>
+  <view class="m">
+    <date-time-picker class="m1" value="{{value2}}"  bindchange="handleChange2">
+    <view class="m11">计划返校时间</view>
+    <view class="m12">{{value2}}  ﹀</view>
+</date-time-picker>
+</view>
+<view class="n">
+    <picker class="n1" bindchange="bindSelectChange2"vaule="{{select2}}" range="{{array2}}">
+    <view class="n11">乘坐何种方式返梅</view><view class="n12">{{array2[select2]}}  ﹀</view>
+  </picker>
+  </view>
+  <view class="p">
+    <view class="p1">航班号或车次车厢</view>
+    <input class="p2" name="userName"placeholder-class="p3"placeholder="航班号、车次车厢等"placeholder-style="text-align:left"
+     bindinput="userNameInput" />
+  </view>
+
+</view>
+<view class="o">
+  <button class="btn1" bindtap="jumpPage" size="mini"><text class="text1">登记</text></button>
+  <button class="btn2" bindtap="jumpPage2" size="mini">报备明细</button>
+</view>
+</view>
+

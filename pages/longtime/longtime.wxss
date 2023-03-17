@@ -1,0 +1,148 @@
+/* pages/daily/daily.wxss */
+.all{
+    background-color: #f7f7f7;
+}
+.container{
+    width: 97%;
+    height: 100%;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #e9e8e8;
+    background-color: #ffffff;
+}
+.a{
+    overflow: hidden;
+    width: 90%;
+    padding: 10px;
+    padding-top:5px ;
+    border-bottom: 1px solid #e9e8e8;
+    font-size: 15px;
+}
+.b,.c,.d{
+    overflow: hidden;
+    width: 90%;
+    padding: 10px;
+    border-bottom: 1px solid #e9e8e8;
+    font-size: 15px;
+}
+.a1,.b1,.c1,.d1{
+    float: right;
+    text-align: right;
+    color:gray;
+}
+.e,.h,.l{
+   display: flex;
+    width: 90%;
+    padding: 10px;
+    border-bottom: 1px solid #e9e8e8;
+    font-size: 15px;
+}
+.p{
+    display: flex;
+    width: 90%;
+    padding: 10px;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+.e1{
+    margin-left: 50px;
+}
+.e2{
+    color: #e9e8e8;
+}
+.h1,.l1,.p1{
+    width: 30%;
+    margin: 0;
+}
+.h2,.l2,.p2{
+    width: 70%;
+    margin-left: 30px;
+}
+.h3,.l3,.p3{
+    color: #e9e8e8;
+}
+.f{
+    width: 90%;
+    padding:10px;
+    border-bottom: 1px solid #e9e8e8;
+    font-size: 15px;
+}
+.g,.i,.j,.k,.m,.n{
+    width: 90%;
+    padding:10px;
+    border-bottom: 1px solid #e9e8e8;
+    font-size: 15px;
+}
+
+.f1,.g1,.i1,.j1,.k1,.m1,.n{    
+    overflow: hidden;
+}
+
+.g11{
+    width: 30%;
+    float: left;
+}
+.g12{
+    width: 70%;
+    float: right;
+    text-align: right;
+    color: gray;
+}
+.f11{
+    width: 40%;
+    float: left;
+}
+.f12{
+    width: 60%;
+    float: right;
+    text-align: right;
+    color: gray;
+}
+.i11{
+    width: 70%;
+    float: left;
+}
+.i12{
+    width: 30%;
+    float: right;
+    text-align: right;
+    color: gray;
+ }
+ .j11,.m11{
+    width: 40%;
+    float: left;
+ }
+ .j12,.m12{
+    width: 60%;
+    float: right;
+    text-align: right;
+    color: gray;
+ }
+ .k11,.n11{
+     width: 50%;
+     float: left;
+ }
+ .k12,.n12{
+     width: 50%;
+     float: right;
+     text-align: right;
+     color: gray;
+ }
+ .o{
+     display: table;
+     margin: auto;
+     padding: 10px;
+ }
+ .btn1{
+     background-color:#0094ff;
+     color: white;
+     text-align: center;
+ }
+.btn2{
+    background-color:#04BE02;
+    color: white;
+    margin-left:10px ;
+ }
+ .text1{
+     font-size: 15px;
+ }

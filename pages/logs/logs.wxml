@@ -1,0 +1,5 @@
+<!--pages/logs/logs.wxml-->
+<text>pages/logs/logs.wxml</text>
+<view>
+{{Time}}
+</view>

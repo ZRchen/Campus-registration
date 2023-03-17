@@ -1,0 +1,106 @@
+/* pages/report/report.wxss */
+.container1 {
+    position: relative;
+    background-color: white;
+    text-align: center;
+    width: 340px;
+    height: 650px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+.a{
+    position: absolute;
+    top:10px;
+    left: 40px;
+    font-size: 20px;
+    color:red;
+}
+.b{
+    margin: auto;
+    display: flex;
+}
+.text1 {
+    position: absolute;
+    left: 30px;
+    top: 85px;
+    font-size: 15px;
+    color:blue;
+}
+.text2 {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    font-size: 50px;
+    color: blue;
+}
+
+.text3 {
+    position: absolute;
+    top: 85px;
+    left:300px;
+    font-size: 15px;
+    color: blue;
+}
+
+.container1 view:nth-child(3) {
+    position: absolute;
+    top:140px;
+    left:110px;
+    z-index: 1;
+}
+
+.container1 view:nth-child(4) {
+    position: absolute;
+    top:130px;
+    left:140px;
+    z-index: 2;
+}
+.imag{
+    width: 130px; 
+    height:170px;
+}
+.gif {
+    width: 200px; 
+    height:200px;
+}
+
+.container1 view:nth-child(5) {
+   position: absolute;
+   top: 320px;
+   left: 45px;
+    width: 250px;
+    height: 350px;
+    text-align: left;
+    line-height: 30px;
+}
+/**默认按钮点击 高亮样式**/
+.button-hover {
+    background-color: red;
+    color:white;
+  }
+  /** 添加自定义button点击态样式类**/
+  .other-button-hover {
+    background-color: blue;
+  }
+  .container1 view:nth-child(6) {
+    position: absolute;
+    top: 595px;
+    left: 50px;
+    height: 40px;
+    width: 250px;  
+    display: flex;
+  }
+  .btn1 {
+    background-color: blue;
+    color: white;
+  }
+ .btn2 {
+   background-color: sandybrown;
+   color: white;
+ }
+ .btn3 {
+    background-color: green;
+    color: white;
+ }
+

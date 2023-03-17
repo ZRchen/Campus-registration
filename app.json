@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/list/list",
+    "pages/logs/logs",
+    "pages/report/report",
+    "pages/longtime/longtime",
+    "pages/daily/daily",
+    "pages/back/back"
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "嘉应学院网上办事大厅",
+    "navigationBarTextStyle":"white"
+},
+"tabBar":{
+    "color": "#c3c3c3",
+    "backgroundColor": "white",
+    "selectedColor": "#0094ff",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "iconPath": "images/home1.png",
+        "selectedIconPath": "images/home.png",
+        "text": "首页"
+        },
+        {   
+            "pagePath": "pages/mine/mine",
+            "iconPath": "images/mine1.png",
+            "selectedIconPath": "images/mine.png",
+            "text":"我的"
+        }
+    ]
+},
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

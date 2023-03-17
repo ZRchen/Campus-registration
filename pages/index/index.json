@@ -1,0 +1,7 @@
+{
+    "usingComponents": {},
+        "navigationStyle": "default",
+        "navigationBarBackgroundColor": "#0094ff",
+        "navigationBarTitleText": "陈增荣 网上办事大厅",
+        "navigationBarTextStyle":"white"
+}

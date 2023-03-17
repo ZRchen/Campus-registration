@@ -1,0 +1,8 @@
+{
+    "usingComponents": {},
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "本人报备证明",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true,
+    "backgroundColorTop": "yellow"
+}

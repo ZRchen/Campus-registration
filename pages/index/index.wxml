@@ -1,0 +1,22 @@
+<!--pages/zhuye/zhuye.wxml-->
+<view class="container1" style="width:{{ScreenTotalW}}rpx;height:{{ScreenTotalH}}rpx">
+    <image src="/images/city.png" class="imag"></image>
+    <view class="a">
+    常用服务
+    <view class="b">
+    <view class="b1">
+    <image src="/images/register.jpg"class="b11" bindtap="b11"></image>
+    <text class="text2">返校信息登记</text>
+    </view>
+    <view class="b2">
+    <image src="/images/daily.jpg"class="b11" bindtap="b12"></image>
+    <text class="text2">日常健康打卡</text></view>
+    <view class="b3">
+    <image src="/images/24h.jpg"class="b11" bindtap="b13"></image>
+    <text class="text2">当日离校报备</text></view>
+    <view class="b4">
+    <image src="/images/register2.jpg"class="b11" bindtap="b14"></image>
+    <text class="text2">长时间离校报备</text></view>
+    </view>
+    </view>
+</view>

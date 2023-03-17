@@ -1,0 +1,8 @@
+{
+    "usingComponents": {
+        "date-time-picker": "/pages/date-time-picker/date-time-picker"
+    },
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "长时间离校报备",
+    "navigationBarTextStyle":"white"
+}
