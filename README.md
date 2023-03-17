@@ -2,3 +2,5 @@
 1.该项目包含返校信息登记，日常健康打卡，当日离校报备，长时间离校报备等功能模块。
 <img src="https://github.com/ZRchen/Campus-registration/blob/master/images/1.jpg" width="300" height="500">
 <img src="https://github.com/ZRchen/Campus-registration/blob/master/images/2.jpg" width="300" height="500">
+<img src="https://github.com/ZRchen/Campus-registration/blob/master/images/3.jpg" width="300" height="500">
+<img src="https://github.com/ZRchen/Campus-registration/blob/master/images/4.jpg" width="300" height="500">
